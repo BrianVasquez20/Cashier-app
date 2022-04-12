@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+header {
+    margin-bottom: 1rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title a {
+    font-size: 2rem;
+}
+
+
+.social-links a i {
+    color: #fff;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.form-control {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+}
+
+
+
+/* MAIN */
+
+.label-text {
+    min-width: 3.4rem;
+}
+
+.inputs-container {
+    margin: 1rem 0;
+}
+
+.container-total-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-show-total {
+    font-size: 1.5rem;
+}
+
+
+/* MEDIA QUERY'S */
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media screen and (max-width: 1399.98px) {
+    .container-total-btn {
+        padding-right: 12.5%;
+    }
+ } 
+
+
+/* X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { } */
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+
+    .inputs-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container-total-btn {
+        padding-right: 4.5%;
+    }
+} 
+
+/* Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... } */
+
+/* Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
+
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
