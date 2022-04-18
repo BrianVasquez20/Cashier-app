@@ -7,7 +7,7 @@
 
 /* HEADER */
 header {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .navbar-container {
@@ -27,33 +27,55 @@ header {
     font-size: 1.5rem;
 }
 
+.social-links a i:hover {
+    color: #7ed6df;
+}
+
 
 .form-control {
     display: inline-block;
-    width: 70%;
+    width: 80%;
     text-align: right;
 }
 
 
 
+
 /* MAIN */
+
+body {
+    background-color: #ecf0f1;
+}
 
 .label-text {
     min-width: 3.4rem;
+    
+}
+
+.label-text, .input-numbers {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .inputs-container {
-    margin: 1rem 0;
+    display: inline-block;
+    margin: 0 2.7rem;
 }
 
 .container-total-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 15%;
 }
 
 #btn-show-total {
     font-size: 1.5rem;
+}
+
+.row2 {
+    margin-top: 2rem;
 }
 
 
@@ -66,28 +88,44 @@ header {
     }
  } 
 
+ /* Large devices (desktops, less than 1200px) */
+@media screen and (max-width: 1199.98px) { 
+    .col-lg-5 {
+        width: 39%;
+    }
+ } 
 
-/* X-Small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { } */
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .col-lg-5 {
+        width: 100%;
+    }
+} 
+
+
 
 /* Small devices (landscape phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
 
     .inputs-container {
-        display: flex;
-        justify-content: space-evenly;
+       
     }
 
     .container-total-btn {
         padding-right: 4.5%;
     }
+
+    .col-lg-5 {
+        width: 90%;
+    }
 } 
 
-/* Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... } */
 
-/* Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... } */
+/* X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { } */
+
+
+
 
 
 /* XX-Large devices (larger desktops) */

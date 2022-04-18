@@ -15,16 +15,16 @@ btnShowTotal.addEventListener("click", function(){
 
         
     }
-    console.log(numbers);
+    //console.log(numbers);
 
     //multiply
     numbers[0] *= 1000;
-    numbers[1] *= 50;
-    numbers[2] *= 500;
-    numbers[3] *= 20;
-    numbers[4] *= 200;
-    numbers[5] *= 10;
-    numbers[6] *= 100;
+    numbers[1] *= 500;
+    numbers[2] *= 200;
+    numbers[3] *= 100;
+    numbers[4] *= 50;
+    numbers[5] *= 20;
+    numbers[6] *= 10;
     numbers[7] *= 5;
     numbers[8] *= 2;
     numbers[9] *= 1;
@@ -35,7 +35,7 @@ btnShowTotal.addEventListener("click", function(){
     for(const i of numbers){
         total+=i;
     }
-    console.log(total);
+    //console.log(total);
 
 
     //creating total container
